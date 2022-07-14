@@ -8,8 +8,8 @@ const ClockFunctional = (props) => {
     // Iniciamos desde la edad actual:
     const initialVal = 36;
     const [edad, setEdad] = useState(initialVal);
-    const nombre = 'Javier';
-    const apellidos = 'Álvarez';
+    const nombre = 'Vetusto';
+    const apellidos = 'Morlo';
 
 
     const tick = () => {
