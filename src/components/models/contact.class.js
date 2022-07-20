@@ -1,15 +1,15 @@
 
 
 export class Contacto {
-    nombre = '';
-    apellido = '';
+    firstName = '';
+    lastName = '';
     email = '';
-    conectado = false;
+    connected = false;
 
-    constructor(nombre, apellido, email, conectado){
-        this.nombre = nombre;
-        this.apellido = apellido;
+    constructor(firstName, lastName, email, connected){
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.email = email;
-        this.conectado = conectado;
+        this.connected = connected;
     }
 }
