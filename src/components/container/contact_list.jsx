@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Contacto } from '../models/contact.class';
+import Blacksquare from '../pure/blackSquare';
 import ComponenteB from '../pure/contacto';
 import ContactForm from '../pure/forms/contactForm';
 
@@ -99,7 +100,7 @@ const ComponenteA = () => {
             <div>
                 <h2>Add contact: </h2>
                 <ContactForm add={ addContact }></ContactForm>
-            </div>    
+            </div>       
         </div>
     )
 }    

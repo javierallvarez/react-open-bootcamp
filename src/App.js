@@ -1,5 +1,6 @@
 import './App.css';
 import ComponenteA from './components/container/contact_list';
+import Blacksquare from './components/pure/blackSquare';
 //import ClockFunctional from './components/pure/clock-functional';
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
         <ComponenteA></ComponenteA>
         {/* Ejercicios sesiones 4, 5 y 6 */}
         {/* <ClockFunctional></ClockFunctional> */}
+        {/* Ejercicios sesiones 10, 11 y 12 */}
+        <Blacksquare></Blacksquare>
     </>
   );
 }
