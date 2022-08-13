@@ -10,12 +10,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppRouting from './AppRouting';
+import Axiosapi from './components/pure/AxiosAPI';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <AppRouting/>
+    {/* <AppRouting/> */}
+    <Axiosapi/>
   </React.StrictMode>
 );
 
